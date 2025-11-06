@@ -1,0 +1,15 @@
+name: solver_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - numpy
+  - pip
+  - pip:
+      - keras==2.4.3
+      - tensorflow==2.2.0
+      - protobuf==3.20.0
